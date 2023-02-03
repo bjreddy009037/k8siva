@@ -9,4 +9,3 @@ spec:
   - image: nginx
     name: nginx-containers
 
-
