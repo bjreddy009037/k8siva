@@ -2,8 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: first-deploy
-  labels:
-    mon: hyd
 spec:
   selector:
     matchLabels:
