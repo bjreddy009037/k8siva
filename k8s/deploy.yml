@@ -3,10 +3,10 @@ kind: Deployment
 metadata:
   name: first-deploy
 spec:
-  replicas: 4
   selector:
     matchLabels:
       env: dev
+  replicas: 4
   template:
     metadata:
       name: first-depo
